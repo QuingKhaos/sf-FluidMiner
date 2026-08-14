@@ -1,0 +1,107 @@
+{
+	"FormatVersion": 1,
+	"Namespace": "",
+	"Subnamespaces": [
+		{
+			"Namespace": "FluidMiner",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "<White16Reg>Mining Fluid: </><Orange16Bold>{MiningFluid}</>"
+					},
+					"Keys": [
+						{
+							"Key": "Widgets/NodeDesc/MiningFluid",
+							"Path": "/FluidMiner/ST_FluidMiner.ST_FluidMiner"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Extracts resources from the resource node it is built on. Requires a mining fluid to run, based on the resource.\r\nDefault extraction rate is 120 resources per minute.\r\nExtraction and consumption rates vary based on resource node. Outputs all extracted resources onto connected Conveyor Belts."
+					},
+					"Keys": [
+						{
+							"Key": "FluidMinerMk2/Desc",
+							"Path": "/FluidMiner/ST_FluidMiner.ST_FluidMiner"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Extracts resources from the resource node it is built on. Requires a mining fluid to run, based on the resource.\r\nDefault extraction rate is 240 resources per minute.\r\nExtraction and consumption rates vary based on resource node. Outputs all extracted resources onto connected Conveyor Belts."
+					},
+					"Keys": [
+						{
+							"Key": "FluidMinerMk3/Desc",
+							"Path": "/FluidMiner/ST_FluidMiner.ST_FluidMiner"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Extracts resources from the resource node it is built on. Requires a mining fluid to run, based on the resource.\r\nDefault extraction rate is 60 resources per minute.\r\nExtraction and consumption rates vary based on resource node. Outputs all extracted resources onto connected Conveyor Belts."
+					},
+					"Keys": [
+						{
+							"Key": "FluidMinerMk1/Desc",
+							"Path": "/FluidMiner/ST_FluidMiner.ST_FluidMiner"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Miner Mk.1"
+					},
+					"Keys": [
+						{
+							"Key": "FluidMinerMk1/Name",
+							"Path": "/FluidMiner/ST_FluidMiner.ST_FluidMiner"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Miner Mk.2"
+					},
+					"Keys": [
+						{
+							"Key": "FluidMinerMk2/Name",
+							"Path": "/FluidMiner/ST_FluidMiner.ST_FluidMiner"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Miner Mk.3"
+					},
+					"Keys": [
+						{
+							"Key": "FluidMinerMk3/Name",
+							"Path": "/FluidMiner/ST_FluidMiner.ST_FluidMiner"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "{Ore} {Purity}\r\nRequires <Bold>{MiningFluid}</> as mining fluid."
+					},
+					"Keys": [
+						{
+							"Key": "FluidMiningResourceNode/LookAtDesc/Pattern",
+							"Path": "/FluidMiner/ST_FluidMiner.ST_FluidMiner"
+						}
+					]
+				}
+			]
+		}
+	]
+}

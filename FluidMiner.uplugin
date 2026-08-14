@@ -40,5 +40,12 @@
 			"SemVersion": "^3.12.0"
 		}
 	],
-	"GameVersion": ">=502094"
+	"GameVersion": ">=502094",
+	"LocalizationTargets": [
+		{
+			"Name": "FluidMiner",
+			"LoadingPolicy": "Always",
+			"ConfigGenerationPolicy": "Never"
+		}
+	]
 }
