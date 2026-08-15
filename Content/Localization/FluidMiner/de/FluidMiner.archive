@@ -1,0 +1,99 @@
+{
+	"FormatVersion": 2,
+	"Namespace": "",
+	"Subnamespaces": [
+		{
+			"Namespace": "FluidMiner",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "<White16Reg>Mining Fluid: </><Orange16Bold>{MiningFluid}</>"
+					},
+					"Translation":
+					{
+						"Text": "<White16Reg>Bergbauflüssigkeit: </><Orange16Bold>{MiningFluid}</>"
+					},
+					"Key": "Widgets/NodeDesc/MiningFluid"
+				},
+				{
+					"Source":
+					{
+						"Text": "Extracts resources from the resource node it is built on. Requires a mining fluid to run, based on the resource.\r\nDefault extraction rate is 120 resources per minute.\r\nExtraction and consumption rates vary based on resource node. Outputs all extracted resources onto connected Conveyor Belts."
+					},
+					"Translation":
+					{
+						"Text": "Extrahiert Ressourcen aus dem Ressourcenvorkommen, auf dem es gebaut wurde. Benötigt zum Betrieb eine dem jeweiligen Rohstoff entsprechende Bergbauflüssigkeit.\r\nDie standardmäßige Förderrate beträgt 120 Ressourcen pro Minute.\r\nFörder- und Verbrauchsraten variieren je nach Ressourcenvorkommen. Gibt alle extrahierten Ressourcen auf angeschlossene Förderbänder aus."
+					},
+					"Key": "FluidMinerMk2/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Extracts resources from the resource node it is built on. Requires a mining fluid to run, based on the resource.\r\nDefault extraction rate is 240 resources per minute.\r\nExtraction and consumption rates vary based on resource node. Outputs all extracted resources onto connected Conveyor Belts."
+					},
+					"Translation":
+					{
+						"Text": "Extrahiert Ressourcen aus dem Ressourcenvorkommen, auf dem es gebaut wurde. Benötigt zum Betrieb eine dem jeweiligen Rohstoff entsprechende Bergbauflüssigkeit.\r\nDie standardmäßige Förderrate beträgt 240 Ressourcen pro Minute.\r\nFörder- und Verbrauchsraten variieren je nach Ressourcenvorkommen. Gibt alle extrahierten Ressourcen auf angeschlossene Förderbänder aus."
+					},
+					"Key": "FluidMinerMk3/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Extracts resources from the resource node it is built on. Requires a mining fluid to run, based on the resource.\r\nDefault extraction rate is 60 resources per minute.\r\nExtraction and consumption rates vary based on resource node. Outputs all extracted resources onto connected Conveyor Belts."
+					},
+					"Translation":
+					{
+						"Text": "Extrahiert Ressourcen aus dem Ressourcenvorkommen, auf dem es gebaut wurde. Benötigt zum Betrieb eine dem jeweiligen Rohstoff entsprechende Bergbauflüssigkeit.\r\nDie standardmäßige Förderrate beträgt 60 Ressourcen pro Minute.\r\nFörder- und Verbrauchsraten variieren je nach Ressourcenvorkommen. Gibt alle extrahierten Ressourcen auf angeschlossene Förderbänder aus."
+					},
+					"Key": "FluidMinerMk1/Desc"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Miner Mk.1"
+					},
+					"Translation":
+					{
+						"Text": "Flüssigkeitsförderer Mk.1"
+					},
+					"Key": "FluidMinerMk1/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Miner Mk.2"
+					},
+					"Translation":
+					{
+						"Text": "Flüssigkeitsförderer Mk.2"
+					},
+					"Key": "FluidMinerMk2/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "Fluid Miner Mk.3"
+					},
+					"Translation":
+					{
+						"Text": "Flüssigkeitsförderer Mk.3"
+					},
+					"Key": "FluidMinerMk3/Name"
+				},
+				{
+					"Source":
+					{
+						"Text": "{Ore} {Purity}\r\nRequires <Bold>{MiningFluid}</> as mining fluid."
+					},
+					"Translation":
+					{
+						"Text": "{Ore} {Purity}\r\nBenötigt <Bold>{MiningFluid}</> als Bergbauflüssigkeit."
+					},
+					"Key": "FluidMiningResourceNode/LookAtDesc/Pattern"
+				}
+			]
+		}
+	]
+}
